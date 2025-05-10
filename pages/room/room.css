@@ -1,0 +1,160 @@
+.container{
+	background-color: #F5F5F7;
+}
+.port-three-list{
+	background-color: #fff;
+	padding: 20upx;
+	margin-top: 20upx;
+}
+.port-three-list-one-port{
+	display: flex;
+}
+.port-three-list-one-port{
+	margin-right: 20upx;
+	position: relative;
+}
+.list-one-port-img{
+	width: 220upx;
+	height: 300upx;
+	border-radius: 20upx;
+}
+.daiqingjie{
+	background-color: #D9A571;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 28upx;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	border-bottom-left-radius: 20upx;
+	border-bottom-right-radius: 20upx;
+}
+.daiqingjie1{
+	background-color: #59C283;
+}
+.list-one-port-ri-baoming{
+	display: flex;
+	align-items: center;
+}
+.list-one-port-ri-baoming-p{
+	font-weight: 700;
+	font-size: 36upx;
+}
+.list-one-port-ri-baoming-p1{
+	font-size: 26upx;
+}
+.list-one-port-ri-tiaojian{
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-one-port-ri-tiaojian-li{
+	font-size: 24upx;
+	border: 1upx solid #FF5B27;
+	border-radius: 6upx;
+	padding: 4upx 10upx;
+	color: #FF5B27;
+	margin-right: 10upx;
+	margin-top: 12upx;
+}
+.jiage{
+	display: flex;
+	align-items: center;
+	padding: 10upx 0;
+	margin-top: 30upx;
+}
+.jiage-le{
+	display: flex;
+	align-items: center;
+}
+.jiage-le-red{
+	font-weight: 700;
+	color: #E83C3C;
+	font-size: 30upx;
+}
+.jiage-le-p1{
+	font-size: 26upx;
+}
+.jiage-ri{
+	display: flex;
+	align-items: center;
+	margin-left: 20upx;
+}
+.jiage-ri-p1{
+	font-size: 26upx;
+}
+.jiage-ri-p2{
+	font-size: 24upx
+}
+.taocan{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.taocan-li-1{
+	background-color: #E7E3DD;
+	color: #FF5B27;
+	font-size: 26upx;
+}
+.taocan-li-2{
+	margin-top: 10upx;
+}
+.yuding{
+	background-color: #EC5424;
+	color: #fff;
+	border-radius: 50upx;
+	padding: 10upx 40upx;
+}
+.shiduan{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin: 20upx 6upx 0;
+}
+.shiduan-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shiduan-1-p1{
+	padding: 12upx;
+	background-color: #42857D;
+}
+.shiduan-2{
+	display: flex;
+	margin-top: 20upx;
+	padding-left: 20upx;
+}
+.shiduan-1-p2{
+	font-size: 20upx;
+}
+.shiduan-2-view{
+	display: flex;
+	align-items: center;
+}
+.shiduan-1-p1-gray{
+	background-color: #EDECEB;
+}
+.shiduan-2-view-p{
+	font-size: 24upx;
+	margin-left: 10upx;
+}
+.shiduan-2-view1{
+	margin-left: 20upx;
+}
+.tip{
+	color: #A8A8A8;
+	font-size: 24upx;
+	margin-top: 20upx;
+}
+.tip .type{
+	line-height: 44upx;
+}
+
+.yuding {
+	background-color: #EC5424;
+	color: #fff;
+	border-radius: 50upx;
+	padding: 10upx 40upx;
+}

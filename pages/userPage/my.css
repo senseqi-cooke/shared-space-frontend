@@ -1,0 +1,197 @@
+uni-page {
+	background-color: #F3F8C1 !important;
+}
+button::after{border: initial;}
+.container {
+	padding: 30upx;
+	background: linear-gradient(to right bottom, #F6F6F6, #F5F8CA, #ECF8C7);
+}
+
+.user {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 120upx;
+}
+
+.user-img {
+	border-radius: 50%;
+	width: 120upx;
+	height: 120upx;
+}
+
+.edit {
+	background-color: #fff;
+	padding: 8upx 16upx;
+	border-radius: 24upx;
+	height: 48upx;
+	line-height: 40upx;
+}
+
+.edit-img {
+	width: 24upx;
+	height: 24upx;
+}
+
+.user-span {
+	font-size: 36upx;
+	margin: 0 20upx;
+}
+
+.edit-span {
+	font-size: 24upx;
+}
+
+.yu-e {
+	background-color: #fff;
+	border-radius: 20upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40upx 120upx;
+	margin-top: 20upx;
+}
+
+.yu-e-le-1-sp-1,
+.yu-e-ri-1-sp-1 {
+	font-weight: 700;
+	font-size: 48upx;
+}
+
+.yu-e-le-1-sp-1 {
+	font-weight: 700;
+}
+
+.yu-e-ri-1,
+.yu-e-le-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.yu-e-ri-1-sp-2 {
+	font-size: 24upx
+}
+
+.zhaomu {
+	margin-top: 20upx;
+}
+
+.zhaomu image {
+	width: 100%;
+	height: 220upx;
+}
+
+.serve-p {
+	font-weight: 700;
+	color: #333333;
+	font-size: 36upx;
+	margin-top: 30upx;
+}
+
+.serve-lists {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.serve-lists1 {
+	margin-top: 40upx;
+}
+
+.serve-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	flex: 1;
+}
+
+.serve-list-div {
+	background-color: #F6F6F6;
+	width: 120upx;
+	height: 120upx;
+	border-radius: 50%;
+	border: 2upx solid #DEDEDE;
+}
+
+.serve-list-img {
+	width: 60upx !important;
+	height: 60upx !important;
+	margin-top: 30upx;
+	margin-left: 30upx;
+}
+
+.serve-list-p {
+	font-size: 24upx;
+	margin-top: 20upx;
+}
+
+.u-popup-slot {
+	width: 600upx;
+	border-radius: 20upx;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.quchongzhi {
+	background-color: #FFE100;
+	width: 200upx;
+	border-radius: 60upx;
+	font-weight: 700;
+	margin-top: 40upx;
+	margin-bottom: 40upx;
+}
+
+.cuohao {
+	position: relative;
+	top: 20upx;
+	right: -534upx;
+}
+
+.touxiang1 {
+	display: flex;
+	justify-content: center;
+	margin: 40upx 0;
+	margin-left: 26upx;
+}
+
+.touxiang1-img {
+	border-radius: 50%;
+	width: 100upx;
+	height: 100upx;
+}
+
+.camera {
+	position: relative;
+	top: 60upx;
+	right: 24upx;
+}
+.shurukuang{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #F7F7F7;
+	background-color: #F7F7F7;
+	margin: 0 40upx;
+	border-radius: 20upx;
+	padding: 20upx 20upx;
+}
+.shurukuang-p{
+	margin-rigjt: 40upx;
+}
+/deep/ .u-popup__content {
+    border-radius: 20upx;
+}
+.u-popup-slot{
+	background-image: url(https://shop.sdxinruan.com/taiqiu/static/yonghubeijing.png);
+	background-position: 0 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}

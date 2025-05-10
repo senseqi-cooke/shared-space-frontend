@@ -1,0 +1,953 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/homePage_V2/homePage_V2",
+			"meta": {
+				"auth": false, //需要登录
+				"async": true, //是否同步
+				"title": "首页", //标题
+				"group": "首页" //分组
+			},
+			"style": {
+				"navigationBarTitleText": "蜜桃成人馆",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/storeList/index",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "首页",
+				"group": "首页"
+			},
+			"style": {
+				"navigationBarTitleText": "蜜桃成人馆",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "首页",
+				"group": "首页"
+			},
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/userPage/promotion/UserPromotion/index", // 分销首页
+			"style": {
+				"navigationBarTitleText": "会员分销"
+			}
+		},
+		{
+			"path": "pages/userPage/promotion/Poster/index", // 推广名片
+			"style": {
+				"navigationBarTitleText": "推广名片"
+			}
+		},
+		{
+			"path": "pages/userPage/promotion/PromoterList/index", // 推广人统计
+			"style": {
+				"navigationBarTitleText": "推广人统计"
+			}
+		},
+		{
+			"path": "pages/room/room",
+			"style": {
+				"navigationBarTitleText": "包间"
+			}
+		},
+		{
+			"path": "pages/authorization/index",
+			"style": {
+				"navigationBarTitleText": "手机号快捷登录"
+			}
+		},
+		{
+			"path": "pages/shopmall/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shopmall/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00acac"
+			}
+		},
+		{
+			"path": "pages/news/NewsDetail/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/shopmall/order/result",
+			"style": {
+				"navigationBarTitleText": "支付结果"
+			}
+		},
+		{
+			"path": "pages/shopmall/refund/index",
+			"style": {
+				"navigationBarTitleText": "退换/售后"
+			}
+		},
+		{
+			"path": "pages/shopmall/refund/detail",
+			"style": {
+				"navigationBarTitleText": "售后详情"
+			}
+		},
+		{
+			"path": "pages/shopmall/refund/apply",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/shopmall/settlement/goods",
+			"style": {
+				"navigationBarTitleText": "商品订单确认"
+			}
+		},
+		{
+			"path": "pages/orderList/orderList",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "订单",
+				"group": "订单"
+			},
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/discounts/discounts",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "兑换",
+				"group": "兑换"
+			},
+			"style": {
+				"navigationBarTitleText": "兑换",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/userPage/index",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "我的",
+				"group": "我的"
+			},
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Login/login",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "登录",
+				"group": "登录"
+			},
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/Login/loginPhone",
+			"meta": {
+				"auth": false,
+				"async": true,
+				"title": "登录",
+				"group": "登录"
+			},
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "蜜桃成人馆",
+		"navigationBarBackgroundColor": "#f8e3f4",
+		"backgroundColor": "#f282f8"
+	},
+	"subPackages": [
+		{
+			"root": "pages/subPack",
+			"pages": [
+				{
+					"path": "homePage/details",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "详情",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "homePage/detailsFast",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "详情",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "homePage/packageDetail",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "套餐详情",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "homePage/selectCity",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "城市定位",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "orderList/closeAccount",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "订单结算",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "orderList/detail",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "orderList/preBook",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "选择预约时间",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "mall/index",
+					"style": {
+						"navigationBarTitleText": "成人超市"
+					}
+				},
+				{
+					"path": "mall/goods-list",
+					"style": {
+						"navigationBarTitleText": "商城"
+					}
+				},
+				{
+					"path": "mall/goods-detail",
+					"style": {
+						"navigationBarTitleText": "商品详细"
+					}
+				},
+				{
+					"path": "mall/address-list",
+					"style": {
+						"navigationBarTitleText": "收货地址"
+					}
+				},
+				{
+					"path": "mall/address-add",
+					"style": {
+						"navigationBarTitleText": "新增收货地址"
+					}
+				},
+				{
+					"path": "mall/address-update",
+					"style": {
+						"navigationBarTitleText": "编辑收货地址"
+					}
+				},
+				{
+					"path": "mall/cart",
+					"style": {
+						"navigationBarTitleText": "购物车"
+					}
+				},
+				{
+					"path": "mall/learn-more",
+					"style": {
+						"navigationBarTitleText": "了解详情"
+					}
+				},
+				{
+					"path": "mall/join-us",
+					"style": {
+						"navigationBarTitleText": "加入我们"
+					}
+				},
+				{
+					"path": "jointStore/index",
+					"style": {
+						"navigationBarTitleText": "联合开店"
+					}
+				},
+				{
+					"path": "jointStore/detail",
+					"style": {
+						"navigationBarTitleText": "详情" // 联合开店详情
+					}
+				},
+				{
+					"path": "jointStore/pay",
+					"style": {
+						"navigationBarTitleText": "订单结算"
+					}
+				},
+				{
+					"path": "jointStore/payResult",
+					"style": {
+						"navigationBarTitleText": "支付结果"
+					}
+				},
+				{
+					"path": "discounts/details",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "兑换",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/myCoupon",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "我的卡券",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/myCoupon1",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "我的优惠券",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "discounts/couponDetail",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "卡券详情",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/balanceList",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "余额列表",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/IntegralList",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "我的积分",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/commonProblem",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "常见问题",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/toJoin",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "招商加盟",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "userPage/leaveMessage",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "用户反馈",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				} /* , {
+			"path": "promotion/promotion",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true, //是否同步
+				"title": "", //标题
+				"group": "" //分组
+			},
+			"style": {
+				"navigationBarTitleText": "门店工作人员中心",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "promotion/distribution/distribution",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true, //是否同步
+				"title": "", //标题
+				"group": "" //分组
+			},
+			"style": {
+				"navigationBarTitleText": "分销订单",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "promotion/withdraw/withdraw",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true, //是否同步
+				"title": "", //标题
+				"group": "" //分组
+			},
+			"style": {
+				"navigationBarTitleText": "提现明细",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "promotion/team/team",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true, //是否同步
+				"title": "", //标题
+				"group": "" //分组
+			},
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		} */,
+				{
+					"path": "userPage/invites",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "邀请有礼",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "discounts/topUpDetail",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "充值纪录",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				/* {
+					"path": "promotion/deposit/deposit",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "提现",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#f5f5f5"
+					}
+				}, */
+				{
+					"path": "shop/shopIndex",
+					"meta": {
+						"auth": true, //需要登录
+						"async": true, //是否同步
+						"title": "", //标题
+						"group": "" //分组
+					},
+					"style": {
+						"navigationBarTitleText": "门店管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/business",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "商家",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/list",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "我的联营",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerOrder",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "订单管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerOrder1",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "订单管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerRoom",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "房间管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/editRoom",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "房间管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/balanceSetting",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "充值设置",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerCoupon",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "卡券管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/editCouponH",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "小时卡管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/editCouponN",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "次卡管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/editCouponC",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "优惠券管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/sendCoupon",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "发券",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerCleanStaff",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "保洁员管理",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/editCleanStaff",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "保洁员编辑",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerCleanLog",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "保洁员日志",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/managerCleanLog1",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "保洁员日志",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/userCoupon",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "用户卡券",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/userCoupon1",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "用户优惠券",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/rechargeDetail",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "充值明细",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/cleanOrder",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "门店保洁中心",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "shop/roomcleanLog",
+					"meta": {
+						"auth": true,
+						"async": true,
+						"title": "",
+						"group": ""
+					},
+					"style": {
+						"navigationBarTitleText": "保洁",
+						"navigationStyle": "default",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "webview/index",
+					"meta": {
+						"auth": false,
+						"async": true
+					},
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF639E",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/homePage_V2/homePage_V2",
+				"text": "首页",
+				"iconPath": "/static/icon/home.png",
+				"selectedIconPath": "/static/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/orderList/orderList",
+				"text": "订单",
+				"iconPath": "/static/icon/order.png",
+				"selectedIconPath": "/static/icon/order-active.png"
+			},
+			{
+				// "pagePath": "pages/discounts/discounts",
+				// "text": "兑换",
+				"pagePath": "pages/cart/index",
+				"text": "购物车",
+				"iconPath": "/static/icon/discount.png",
+				"selectedIconPath": "/static/icon/discount-active.png"
+			},
+			{
+				"pagePath": "pages/userPage/index",
+				"text": "我的",
+				"iconPath": "/static/icon/me.png",
+				"selectedIconPath": "/static/icon/me-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

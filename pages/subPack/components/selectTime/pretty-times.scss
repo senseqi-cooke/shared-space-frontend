@@ -1,0 +1,196 @@
+.container {
+  $bottom-height: 180rpx;
+
+  text,
+  image {
+    box-sizing: border-box;
+  }
+
+  background-color: #fff;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    width: 100%;
+
+    image {
+      width: 100%;
+      height: 0;
+    }
+  }
+
+  .date-select {
+    background-color: #fff;
+    padding: 16rpx 16rpx 0;
+    position: relative;
+    flex-shrink: 0;
+    margin-top: -50rpx;
+
+    &::after {
+      background: #e5e5e5;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: scaleY(0.5);
+    }
+
+    .tip {
+      font-size: 25rpx;
+      color: #8f8f8f;
+      position: absolute;
+      bottom: 10rpx;
+      right: 24rpx;
+    }
+  }
+
+  > .tip {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #eeeeee;
+    text-align: left;
+
+    .title {
+      font-weight: 500;
+      font-size: 28rpx;
+      color: #333333;
+      display: flex;
+      align-items: center;
+
+      .text {
+        margin-left: 10rpx;
+      }
+    }
+
+    .p {
+      padding-left: 30rpx;
+      font-size: 20rpx;
+      color: #333333;
+      line-height: 30rpx;
+    }
+  }
+
+  .scroll-view_H {
+    width: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+
+    .flex-box {
+      margin-right: 20rpx;
+      width: 180rpx;
+      padding: 0 20rpx;
+      height: 120rpx;
+      border-radius: 8rpx;
+      background: #f2f3f7;
+
+      &.active {
+        background: #ff6ca0;
+      }
+
+      .date-box {
+        border: none;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 30rpx;
+        color: rgba(129, 129, 129, 1);
+
+        .font-w {
+          font-size: 26rpx;
+        }
+      }
+    }
+  }
+
+  .time-box {
+    padding: 12upx;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-bottom: $bottom-height;
+    flex: 1;
+    overflow-y: scroll;
+
+    .item {
+      width: 25%;
+      padding: 0 9upx;
+      margin: 10rpx 0;
+      &-box {
+        width: 100%;
+        height: 104upx;
+        padding: 0 44upx;
+        background: #fff;
+        color: #333;
+        border: 1px solid #eeeeee;
+        font-size: 24upx;
+        border-radius: 10upx;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &.disable {
+          background: #f1f3f6 !important;
+          color: #999 !important;
+          display: none;
+          // border: 1px solid #EEEEEE;
+        }
+        &.active {
+          border: 1px solid #ff6ca0;
+          background: #ff6ca0;
+          color: #fff;
+        }
+        .all {
+          font-size: 22upx;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+
+  .makeActive,
+  .sweepClass {
+    background: #d7d7d7 !important;
+    color: #858585 !important;
+  }
+
+  /* 两个按钮 */
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20rpx 70rpx 40rpx;
+
+    .button {
+      width: 44%;
+      height: auto;
+      padding: 15rpx 0;
+      border-radius: 6rpx;
+      font-weight: 600;
+      font-size: 30rpx;
+      line-height: 41rpx;
+      letter-spacing: 1px;
+    }
+
+    .clear {
+      border: 1rpx solid #ff6ca0;
+      background: #fff;
+      color: #ff6ca0;
+    }
+
+    .isOk {
+      background: linear-gradient(180deg, #ffe7f0 0%, #ffb8d3 100%);
+      color: #763030;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "its-calendar",
+    "name": "预约时间段选择器",
+    "version": "1.0.1",
+    "description": "日历时间段选择器，预约选择时间段",
+    "keywords": [
+        "日历",
+        "时间段",
+        "预约时间"
+    ],
+    "dependencies": {
+        "async-validator-uniapp": "^1.1.0",
+        "better-mock": "^0.3.6",
+        "dayjs": "^1.11.7",
+        "uni-read-pages": "^1.0.5",
+        "uni-simple-router": "^2.0.8-beta.4",
+        "wechat-jssdk": "^5.0.8"
+    }
+}
